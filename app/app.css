@@ -1,15 +1,33 @@
-@import "tailwindcss";
+/* ==========================================================================
+   Global reset — keep this file minimal; page-specific styles (like the
+   portfolio) live in their own stylesheet and import into their route.
+   ========================================================================== */
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #1a1f33; /* matches the portfolio's dark theme, avoids a white flash on load */
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
 }
