@@ -22,9 +22,9 @@ const projects: Project[] = [
     github: "https://github.com/RagnarOige/chadcn-design",
   },
   {
-    title: "Web art project",
+    title: "Whack a mole game",
     image: "/projects/artlife4.png",
-    github: "https://github.com/RagnarOige/chadcn-design",
+    github: "https://github.com/RagnarOige/whack-a-predator",
   },
 ];
 
