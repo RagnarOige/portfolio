@@ -26,7 +26,7 @@ export default function Contact() {
     console.log("Contact form submitted:", form);
     setStatus("sent");
   }
-
+  
   return (
     <section id="contact" className="contact">
       <h2 className="section-title">Contact me!</h2>
@@ -35,11 +35,10 @@ export default function Contact() {
         like to say hello, send me a message. I&rsquo;d love to hear from
         you.
       </p>
-
+      
       <div className="contact-form-wrap">
         <div className="contact-email">
           <span className="mail-icon" aria-hidden="true">
-            ✉️
           </span>
           <a href="mailto:ragnaroige@gmail.com">ragnaroige@gmail.com</a>
         </div>
