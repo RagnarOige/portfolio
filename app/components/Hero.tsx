@@ -6,7 +6,7 @@ export default function Hero() {
       <p className="hero-bio">
         I am a 3rd year junior software developer student at Kuressaare Ametikool, my interests are programming and sports. My strengths are that I am positive, independent and have good teamwork skills. 
       </p>
-      <a href="/cv Ragnar Õige.docx" className="resume-link" download target="_blank">
+      <a href="/cvRagnarÕige.pdf" className="resume-link" download target="_blank">
         Download resume →
       </a>
       <a href="#contact" className="btn-primary">
