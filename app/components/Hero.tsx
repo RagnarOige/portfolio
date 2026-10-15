@@ -4,7 +4,7 @@ export default function Hero() {
       <p className="hero-greeting">Hi, I&rsquo;m Ragnar</p>
       <h1 className="hero-title">Software Developer</h1>
       <p className="hero-bio">
-        I am a 3rd year junior software developer student at Kuressaare Ametikool, my interests are programming and sports. 
+        I am a 3rd year junior software developer student at Kuressaare Ametikool, my interests are programming and sports. My strengths are that I am positive, independent and have good teamwork skills. 
       </p>
       <a href="/resume.pdf" className="resume-link" download>
         Download resume →
