@@ -9,8 +9,8 @@ import {
 } from "react-icons/si";
 
 const skills = [
-  { icon: SiHtml5, color: "#e34f26", label: "HTML5" },
-  { icon: SiCss, color: "#1572b6", label: "CSS3" },
+  { icon: SiHtml5, color: "#e34f26", label: "HTML" },
+  { icon: SiCss, color: "#1572b6", label: "CSS" },
   { icon: SiJavascript, color: "#f7df1e", label: "JavaScript" },
   { icon: SiReact, color: "#61dafb", label: "React" },
   { icon: SiPython, color: "#3776ab", label: "Python" },
